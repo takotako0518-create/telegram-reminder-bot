@@ -30,6 +30,8 @@
    ```javascript
    const TOKEN = "你的_TELEGRAM_BOT_TOKEN";
    const TARGET_GROUP = -100XXXXXXX; // 你的 Telegram 群組 ID
+   
+---
 
 1.點擊右上角 「部署」 -> 「新建部署」：
 ◌ 種類：選擇 Web 應用程式 (Web App)
@@ -48,6 +50,8 @@ HTTP
   ◌ 新增觸發條件：執行函式選擇 checkAndSendReminders。
   ◌ 事件來源：時間驅動。
   ◌ 時間型觸發條件類型：分定時器（建議設定為每分鐘執行一次）。
+  
+---
 
 📖 指令與使用範例
 1. 常用指令
@@ -69,6 +73,8 @@ Plaintext
 單次 09:00 專案會議
 07/15
 07/20
+
+---
 
 📝 授權 (License)
 本專案採用 MIT License 授權。
